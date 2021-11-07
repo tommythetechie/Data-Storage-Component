@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  body {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+  }
+  .wrapper {
+    background-image: url('images/bg-mobile.png');
+    background-size: cover;
+    width: 375px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .icon {
+      background-color: black;
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+  }
