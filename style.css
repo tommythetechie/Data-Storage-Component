@@ -56,3 +56,26 @@
     background-color: hsl(228, 56%, 26%);
     border-radius: 8px;
   }
+  .usage p {
+    font-weight: 300;
+    
+  }
+  .usage p span {
+    font-weight: 900;
+    
+  }
+  .whatsLeft {
+    width: 170px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: grid;
+    align-items: center;
+  }
+  .whatsLeft span {
+    font-weight: 900;
+    font-size: 18px;
+  }
