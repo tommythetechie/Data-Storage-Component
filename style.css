@@ -9,6 +9,7 @@
   body {
       color: #fff;
       font-family: 'Raleway', sans-serif;
+      background-color: hsl(229, 57%, 11%);
   }
   .wrapper {
     background-image: url('images/bg-mobile.png');
@@ -55,6 +56,12 @@
   .usage {
     background-color: hsl(228, 56%, 26%);
     border-radius: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 55px 55px 55px;
   }
   .usage p {
     font-weight: 300;
@@ -72,10 +79,47 @@
     color: #000;
     text-transform: uppercase;
     font-size: 12px;
+
+    position: relative;
+    left: 60px;
+    top: 12px;
     display: grid;
     align-items: center;
   }
   .whatsLeft span {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 30px;
+  }
+  .whatsLeft p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+
+  /* Media Queries */
+
+@media screen and (min-width: 1440px) {
+	body {
+		
+	}
+    .wrapper {
+    min-width: 1440px;
+		
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 380px 400px;
+      grid-template-rows: 200px 150px;
+      grid-column-gap: 20px;
+    }
+    .usage {
+      
+      display: grid;
+      align-items: center;
+      justify-content: center;
+  
+      grid-template-columns: 100%;
+      grid-template-rows: 45px 45px 45px;
+    }
+	
   }
