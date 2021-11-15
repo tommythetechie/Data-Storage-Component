@@ -104,7 +104,9 @@
 	}
     .wrapper {
     min-width: 1440px;
-		
+		background-image: url('images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position:10px 250px;
     }
     .main {
       display: grid;
@@ -119,6 +121,8 @@
       grid-template-columns: 100%;
       grid-template-rows: 45px 45px 45px;
       text-align: left;
+      padding: 20px 18px 18px 18px;
+      font-size: 14px;
     }
     .whatsLeft {
       width: 170px;
@@ -129,7 +133,7 @@
   
       position: relative;
       left: 200px;
-      top: -114px;
+      top: -140px;
       display: grid;
       align-items: center;
       
