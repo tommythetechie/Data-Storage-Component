@@ -95,6 +95,31 @@
     font-size: 12px;
   }
 
+  progress {
+    width: 80%;
+    margin-left: 30px;
+    height: 20px;
+    position: relative;
+    top: -20px;
+  }
+  .progress-stats {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -35px;
+    margin: 0px 30px;
+  }
+  .left {
+    display: inline-block;
+    width: 50px;
+    text-align: left;
+  }
+  .right {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+  }
+
 
   /* Media Queries */
 
@@ -144,12 +169,17 @@
       height: 20px;
       position: relative;
       top: -20px;
+      margin-left: 0px;
+      color: #0063a6;
     }
+    
+
     .progress-stats {
       display: flex;
       justify-content: space-between;
       position: relative;
       top: -35px;
+      margin: 0px;
     }
     .left {
       display: inline-block;
